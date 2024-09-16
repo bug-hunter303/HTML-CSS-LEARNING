@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form action="">
+    <p> 
+        First Name <sup>*</sup> : <input type="text" name="FirstName" id="FirstName">
+        Last Name : <input type="text" name="LastName" id="LastName">
+    </p>
+    <p>
+        Date Of Birth :  <input type="date" name="DOB" id="DOB">
+    </p>
+    <legend>  GENDER : </legend>
+    <p>
+        Male <input type="radio" name="gender" id="male" required>
+        Female <input type="radio" name="gender" id="female" required>
+    </p>
+    <p> Region
+        <select name="Region" id="region">
+            <option value="">Region</option>
+            <option value="NA"> North America </option>
+            <option value="SA"> South America </option>
+            <option value="Asia"> Asia </option>
+            <option value="Europe"> Europe </option>
+            <option value="Oceania"> Oceania </option>
+            <option value="Africa "> Africa </option>
+            <option value="Antartica"> Antartica</option>
+        </select>
+    </p>
+    <p> Email : <input type="email" name="email" id="email"></p>
+    <p> Phone : <input type="tel" name="phone" id="phone"></p>
+    <p> Password : <input type="password" name="password" id="password"></p>
+    <p> <input type="checkbox"  id="tick" required> I agree to the terms of use </p>
+    <input type="submit" value="Submit"> <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
