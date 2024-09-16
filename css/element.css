@@ -1,0 +1,31 @@
+p,a{  /*combined selector */
+    color: crimson;
+}
+
+li{  
+    list-style: square;
+}
+
+.special{ 
+    color: orange;
+    font-weight: bold;
+    
+}
+
+span.special{ /*class selector*/
+    color: blue;
+}
+
+li em{  /* descendent selector ( is a type of combinator selector )*/
+    color: tomato;
+}
+
+h1+p{ /*adjacent selector (is a type of combinator selector) */
+    color: aquamarine;
+    font-size: larger;
+}
+
+a:hover{
+    color: saddlebrown;
+    text-decoration: none;
+}
