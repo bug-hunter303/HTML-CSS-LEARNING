@@ -6,7 +6,7 @@ li{
     list-style: square;
 }
 
-.special{ 
+.special{ /*class selector*/
     color: orange;
     font-weight: bold;
     
